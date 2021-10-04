@@ -1,0 +1,16 @@
+/****  GLOBAL  ****/
+h1 {
+  margin-left: 10px;
+}
+.table {
+  margin: 0px 10px;
+  display: grid;
+  grid-template-columns: 14.25% 14.25% 14.25% 14.25% 14.25% 14.25% 14.25%;
+}
+.header {
+  background-color: black;
+  color: white;
+}
+.dark {
+  background-color: rgb(200, 200, 200);
+}
