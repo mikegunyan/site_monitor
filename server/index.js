@@ -6,9 +6,9 @@ const mysql = require('mysql');
 const { lookup } = require('geoip-lite');
 
 const resumeConnection = {
-  host: process.env.HOST || '',
+  host: process.env.HOST || 'localhost',
   user: 'root',
-  password: process.env.PASSWORD || 'crudroot',
+  password: process.env.PASSWORD || '',
   database: 'crud'
 };
 
